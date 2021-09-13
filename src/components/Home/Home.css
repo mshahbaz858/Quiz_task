@@ -1,0 +1,62 @@
+.home_outer_container {
+  /* background-color: blue; */
+  background-color: rgb(57, 168, 219) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Home_outerContent {
+  width: 80%;
+}
+.Home_inner_area {
+  width: 80%;
+  margin-inline: auto;
+  border-radius: 10px;
+}
+.Home_inner_content {
+  border-radius: 13px;
+}
+.hint-area {
+  width: 320px;
+  border-radius: 15px;
+  background-color: lightyellow;
+}
+/* .input_value {
+  width: 50px;
+} */
+
+/* Media query */
+/* ======================== For medium screen =================================*/
+
+@media only screen and (max-width: 992px) {
+  .home_outer_container {
+    min-height: 80vh;
+    background-size: cover;
+  }
+  .Home_outerContent {
+    width: 100%;
+  }
+}
+
+/* ======================== For tablet screen =================================*/
+
+@media only screen and (max-width: 768px) {
+  .home_outer_container {
+    min-height: 100vh;
+    background-size: cover;
+  }
+  .Home_outerContent {
+    width: 100%;
+  }
+}
+
+/* ======================== For mobile screen =================================*/
+@media only screen and (max-width: 600px) {
+  .home_outer_container {
+    min-height: 100vh;
+    background-size: cover;
+  }
+  .Home_outerContent {
+    width: 100%;
+  }
+}

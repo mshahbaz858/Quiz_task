@@ -1,0 +1,18 @@
+.Large_img {
+  height: 558px;
+  padding-bottom: 8px !important;
+}
+.small_div div {
+  min-height: 271px !important;
+}
+.card_main_container {
+  margin-top: -4rem !important;
+}
+.img_large {
+  background: linear-gradient(0deg, #e5e5e5, #e5e5e5) !important;
+  border-radius: 4px;
+}
+.small_img_cont div div {
+  background: linear-gradient(0deg, #e5e5e5, #e5e5e5) !important;
+  border-radius: 4px;
+}

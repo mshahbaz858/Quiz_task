@@ -1,38 +1,63 @@
+:root {
+  --blue: #5d34ff;
+  --Bgwhite: #ffffff;
+  --colorWhite: #ffffff;
+  --colorDark: #000000;
+  --size16: 16px;
+  --size18: 18px;
+  --size24: 24px;
+  --fontGray: #aaaaaa;
+  --searchBorder: #dddddd;
+  --modalTextBlue: #2a1971;
+  --menuButton: #674ecc;
+  --colorGray: #999999;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap");
+
+/*====================== Home ==========================*/
+@import url("./components/Home/Home.css");
+
+/*====================== Navbar ==========================*/
+/* @import url("./reusableStyles/Dropdown.css");
+
+/*====================== Navbar ==========================*/
+/* @import url("./components/ArtistProfile/ArtistProfile.css"); */
+/*====================== Navbar ==========================*/
+
+/*====================== Navbar ==========================*/
+/* @import url("./components/Explore/AllNfts.css"); */
+
+/*====================== Navbar ==========================*/
+/* @import url("./components/CardDetails/CardDetails.css"); */
+
 .App {
-  text-align: center;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Raleway", sans-serif;
+  background: var(--Bgwhite);
+  max-width: 1440px;
+  font-size: var(--size16);
 }
+/* MEdia queries */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* ======================== For medium screen =================================*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 768px) {
+  .App {
+    background: var(--Bgwhite);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* ======================== For tablet screen =================================*/
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 992px) {
+  .App {
+    background: var(--Bgwhite);
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* ======================== For mobile screen =================================*/
+@media only screen and (max-width: 600px) {
+  .App {
+    background: var(--Bgwhite);
   }
 }

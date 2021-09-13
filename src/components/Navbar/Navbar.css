@@ -1,0 +1,40 @@
+.nav_area {
+  background-color: var(--Bgwhite) !important;
+}
+.navbar_profile {
+  margin-block: auto !important;
+  font-size: 35px !important;
+}
+.navbar_Menu {
+  margin-block: auto !important;
+  font-size: 28px !important;
+  color: var(--menuButton) !important;
+}
+.navbar a {
+  color: #000000a3;
+  opacity: 1 !important;
+  font-weight: 600;
+  margin-inline: 6px;
+  font-size: 33px;
+}
+.navbar button {
+  color: var(--colorGray) !important;
+  font-weight: 500;
+  font-size: var(--size16) !important;
+}
+#collasible-nav-dropdown {
+  color: var(--colorGray) !important;
+  font-weight: 500;
+  font-size: var(--size16) !important;
+  margin-block: auto !important;
+}
+.navbar {
+  background-color: transparent !important;
+  background: transparent !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.text18 {
+  font-size: var(--size18) !important;
+  color: var(--blue) !important;
+}
